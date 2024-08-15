@@ -1,4 +1,60 @@
 @charset "UTF-8";
-*{
-  color: #333;
+.bg{
+  background-color: rgb(73, 127, 222);
+  margin-top: 125px;
+}
+
+.logbg{
+  position: relative;
+  background-color: white;
+  width: 650px;
+  height: 500px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 70px;
+}
+
+.bg .logbg h2{
+  margin-bottom: 50px;
+}
+
+.liststyle{
+  list-style: none;
+  padding-left: 0;
+}
+
+.liststyle li{
+  margin-bottom: 30px;
+}
+
+.liststyle li input{
+  width: 460px;
+  height: 70px;
+  border-radius: 6px;
+}
+
+.liststyle li #id, #ps{
+  background-color: #aaa;
+}
+
+.liststyle li:last-child{
+  background-color: #aaa;
+}
+
+.logbg::after {
+  position: absolute;
+  width: 627px;
+  height: 477px;
+  border: 1px solid #aaa;
+  border-radius: 6px;
+  content: "";
+  top: 12px;
+  bottom: 12px;
+  left: 12px;
+  right: 12px;
+  pointer-events: none;
+}
+
+.backColor{
+  color: red;
 }
